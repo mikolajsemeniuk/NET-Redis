@@ -10,5 +10,5 @@ dotnet new webapi -o source/app
 dotnet new xunit -o source/tests
 
 dotnet sln add source/app
-dotnet sln add source/tests 
+dotnet sln add source/tests
 ```

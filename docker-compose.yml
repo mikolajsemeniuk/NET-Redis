@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+    db:
+        image: redis:alpine
+        command: redis-server --requirepass yourpassword
+        container_name: db
+        restart: always
+        ports:
+          - "6379:6379"
